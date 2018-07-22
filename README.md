@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+# Photography
+A jekyll website for photographers
 
-You can use the [editor on GitHub](https://github.com/vishalshar/photography-website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Highlights
+1. Easy setup and you get a site of your own for __free__.
+2. To add new pictures, you need to just upload them. __No code__ changes required.
+3. This I like the most, you get to see EXIF data like __aperture, shutter speed, iso__ etc when you click on any image automagically.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Quick Start
+If you know a tad about tech and love taking pictures then this open-source project may help you setup a website to showcase
+all your creations without effort. And not just that, with this you need not pay a single dime to host your website as
+it's hosted by GitHub for __free__.
 
-### Markdown
+**Just follow the below steps and your website would be live in no time:**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Fork this repo by hitting the `Fork` button at the top right corner.
+2. Enable github pages from the repo settings.
+3. Upload your pictures to `images/fulls` and `images/thumbs` directory. _You can do that on github.com itself or you can clone and push the images to your repo._
+4. Add your own custom domain in `CNAME` file or just remove the file if you don't own a domain and use the default domain that github provides ([yourusername].github.io/photography).
+5. Update `baseurl` field in `_config.yml` file with whatever domain you used in step 4.
+6. And that's it, your website is set. To view, go to [photography.ramswaroop.me](http://photography.ramswaroop.me) (or whatever you have in the CNAME file) and if you don't have one, you can go to [[yourusername].github.io/photography](http://yourusername.github.io/photography)
 
-```markdown
-Syntax highlighted code block
+And of course, you don't want my name at the bottom to show up. You can change it in `_config.yml` file as well as few other settings like your google analytics etc.
+ 
+## ProTips
+I have made this as an [npm](https://www.npmjs.com) package with [gulp](http://gulpjs.com/) to __automate image resizing
+and thumbnail generation__. So if you're lazy like me then you can just do the following before you push your images to github.
 
-# Header 1
-## Header 2
-### Header 3
+1. Fork and then clone the project to your computer
+2. Go inside the project `$ cd photography`
+3. Install all dependencies by `$ npm install`
+4. Copy all your pictures (possibly jpg, the largest size available, straight from your camera) and put it inside `images` directory
+5. Run `$ gulp` to resize the images and to generate thumbnails automatically
+6. Push your changes to github.com by `$ git add --all` and `$ git commit -m "a nice commit message"` and then finally `$ git push origin master`
 
-- Bulleted
-- List
+### Contact Form
+You can make the contact form work without the need of any server-side code. Just follow this [article on github](https://github.com/dwyl/html-form-send-email-via-google-script-without-server) which uses a simple google script to send emails or to upload to a google spreadsheet when someone submits the form.
 
-1. Numbered
-2. List
+## Credits
+Thanks to [AJ](https://twitter.com/ajlkn) for the website template which I enhanced for [jekyll](http://jekyllrb.com/).
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vishalshar/photography-website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

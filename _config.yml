@@ -1,1 +1,25 @@
-theme: jekyll-theme-cayman
+# Base configs
+baseurl: "http://vishalshar.github.io/photography-website/"
+image_fulls_loc: "/images/fulls"
+image_thumbs_loc: "/images/thumbs"
+google_analytics: ""
+
+# UI configs
+title: "Photography by Vishal Sharma"
+subtitle: ""
+author: "Vishal Sharma"
+header:
+ title: "Photography"
+ subtitle: "by Vishal"
+footer:
+ name: "Hi there, I'm Vishal."
+ bio: ""
+ github: ""
+web_design: "AJ"
+social_urls:
+  facebook: ""
+  twitter: ""
+  instagram: ""
+  dribbble: ""
+  linkedin: ""
+  github: "https://www.github.com/vishalshar"
