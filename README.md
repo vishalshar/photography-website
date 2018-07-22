@@ -38,5 +38,6 @@ You can make the contact form work without the need of any server-side code. Jus
 
 ## Credits
 Thanks to [AJ](https://twitter.com/ajlkn) for the website template.
+I am using this template from https://github.com/rampatra/photography.
 
 
