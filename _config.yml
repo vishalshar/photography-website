@@ -13,13 +13,10 @@ header:
  subtitle: "by Vishal"
 footer:
  name: "Hi there, I'm Vishal."
- bio: ""
- github: ""
+ bio: "I am an amature photographer. I study at Utah State University."
+ web: "https://vishalshar.github.io"
 web_design: "AJ"
 social_urls:
-  facebook: ""
-  twitter: ""
-  instagram: ""
-  dribbble: ""
-  linkedin: ""
+  quora: "https://www.quora.com/profile/Vishal-Sharma-154"
+  linkedin: "https://www.linkedin.com/in/vishal-sharma-1310/"
   github: "https://www.github.com/vishalshar"
